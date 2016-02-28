@@ -11,11 +11,10 @@
 </head>
     
 <body>
-<!--NAV BAR-->
 <div class="container">
+<!--NAV BAR-->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only"></span>
@@ -28,29 +27,23 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#features">Features <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="index.html#features">Features <span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Browse <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Concerts</a></li>
-            <li><a href="#">Sports Games</a></li>
+            <li><a href="index.html#browse">Concerts</a></li>
+            <li><a href="index.html#browse">Sports Games</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Tumblr TV</a></li>
+            <li><a href="index.html#browse">Tumblr TV</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Travel</a></li>
+            <li><a href="index.html#browse">Travel</a></li>
           </ul>
         </li>
-        <li><a href="#about">About Us</a></li>
-      </ul>
+        <li><a href="index.html#future">Future Plans</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="signUp.html">Sign Up</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log In <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">My Profile</a></li>
-            <li><a href="#">My Rooms</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Log Out</a></li>
+        <li><a href="signUp.html">Create an Account</a></li>
           </ul>
         </li>
       </ul>
@@ -73,27 +66,38 @@
         </div>
         <div class="container">
             <p>TheatreV is an shareable VR experience that creates a virtual private space within public events.
-                Upon opening TheatreVR, a virtual house is created with a customizable number of rooms.
-                Each room contains another 
-                
+                Upon opening TheatreVR, a virtual house is created with a customizable number of rooms, each hosting unique events
+                for yourself and anyone invited. Each room immerses the user in a unique event, allowing users to: 
+                <ul>
+                    <li>Enjoy concerts, political rallies, music festivals, and other events</li>
+                    <li>Watch sports games from a front row perspective or a player's POV</li>
+                    <li>Experience what you missed or relive it (Gatsby was ahead of his time -- now you can repeat the past)</li>
+                    <li>Upload your own home movies to share moments with friends more vividly</li>
+                    <li>Visit famous places without leaving your home through live streams taken by 3D cameras</li>
+                    <li>Avoid crowds if the user has mental or physical health reasons, including social anxiety</li>
+                    <li>Eliminate travel costs, making events more accessible to all interested people</li>
+                    <li>Virtually be in two places at the same time</li>
+            </ul></p> 
+            <p>Better yet, you can SHARE any event with your friends! Through our multi-user mode, you can invite your friends to your house to synchronously experience the same content. With the help of motion sensors, you can watch their dance moves next to you, or watch them jump up with joy as your team wins.
             </p>
             <p>Techonologies:</p>
             <ul>
                 <item>Built in Unity 5.3.3</item><br>
                 <item>Tested with Oculus SDK2</item><br>
                 <item>Supported by Microsoft Kinect</item><br>
+                <item>Also integrates LEAP Motion sensors</item>
                 <item>Node.js server deployed on Azure</item><br>
             </ul>
         </div>
-        <article>
-        </article>
     </div>
     <div class="page" id="future">
         <div class="text-center">
             <h2>Future Plans</h2>
         </div>
-        <article>
-        </article>
+        <div class="container">
+            <p> We plan to spread access for nearly every form of entertainment, with ventures into business and education. The next step as a company is enhancing our video library by collecting existing 3D videos and potentially creating a network of 3D cameras for current streams. We hope that removing physical limitations will free our users from the stresses of transportation. In many ways, our virtual private event space is allowing anyone to be an invisible teleporter, use it as you wish.
+            </p>
+        </div>
     </div>
 <div class="page" id="about">
     <div class="text-center">
@@ -102,17 +106,21 @@
     <div class="container">
         <p>TheatreV came to life at HackTech with collaboration from Bryce Alan Chek, Ashley Hoffman, Vishvesh Shah, and Bryan Deloeste. We would also like to thank Hacktech's sponsors, mentors, and MLH.</p>
     </div>
-        <div class="container" >  <!--starts carousel-->
+        <div class="container">
             <div class="text-center">
                 <div class="img"><img src="images/room1.jpg" alt="Early Room"></div>
                 <div class="img"><img src="images/coders1.jpg" alt="Early Coders"></div>
-                <div class="img"><img src="images/vish1.png" alt="Behind the scenes"></div>
             </div>
         </div>
 </div>
     <div class="page" id="browse">
         <div class="text-center">
             <h2>Browse</h2>
+        </div>
+        <div>
+        <p>
+            Our various library categories are currently Concerts, Sports Games, Tumblr TV, and Travel.
+            </p>
         </div>
         <article>
         </article>
@@ -121,7 +129,7 @@
 <footer>    
     <nav class="text-center">
         <ul>
-            <p>Contact us at thetheatrev@gmail.com</p>
+            <p>Contact us at <a style="color: lightgray" href=mailto:thethreatrev@gmail.com>thetheatrev@gmail.com</a></p>
         </ul>
     </nav>
 
